@@ -6,3 +6,5 @@ This project includes the following concepts <br /><br />
 4 - Write a handler to return all items. <br />
 5 - Write a handler to add a new item. <br />
 6 - Write a handler to return a specific item. <br />
+
+To implement all these funcionalities, i used golang with gin framework and http methods
