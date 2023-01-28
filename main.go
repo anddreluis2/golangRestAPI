@@ -20,7 +20,7 @@ var albums = []album{
 	{ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
 }
 func getAlbums(c *gin.Context) {
-	c.IndentJSON(http.StatusOK, albums)
+	c.JSON(http.StatusOK, albums)
 }
 
 func main() {
